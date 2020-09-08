@@ -4,9 +4,9 @@ import fakeData from '../fakeData';
 import Product from '../Product/Product';
 
 const ProductDetail = (props) => {
-   const {productKey} = useParams()
-   const product = fakeData.find(pd => pd.key === productKey);
-   console.log(product);
+    const {productKey} = useParams();
+    const product = fakeData.find(pd => pd.key === productKey);
+   
     return (
         <div>
             <h1> your product details .</h1>
